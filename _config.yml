@@ -31,7 +31,6 @@ profile_image: ./assets/images/profile-image/profile.JPG
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
   linkedin: dev-makwana-822464207    # https://www.linkedin.com/in/{your url slug} 
   github: leea12    # https://github.com/{your url slug} 
-  email: dmak2321@gmail.com         # mailto link will be created if theme supports it
   # stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
   medium:            # https://medium.com/@{your url slug} 
   x-twitter:   # https://x.com/{your url slug} 
