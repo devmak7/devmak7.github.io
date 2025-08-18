@@ -7,7 +7,7 @@
                 I'm {{ site.name | split: ' ' | first }} 
                 {% if site.external-links %}
                 <span class="external-links">
-                    {% assign platforms = "linkedin,x-twitter,github,stackoverflow,discord,medium,threads,bluesky,instagram,youtube" | split: "," %}
+                    {% assign platforms = "linkedin,x-twitter,github,email,stackoverflow,discord,medium,threads,bluesky,instagram,youtube" | split: "," %}
                     {% for platform in platforms %}
                         {% if site.external-links[platform] %}
                             {% case platform %}
@@ -17,11 +17,10 @@
                             </a>
                     
                             {% when 'email' %}
-                            <a href="mailto:{{ site.external-links.email }}" aria-label="Email">
-                              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                                <path d="M2 6.5A2.5 2.5 0 0 1 4.5 4h15A2.5 2.5 0 0 1 22 6.5v11A2.5 2.5 0 0 1 19.5 20h-15A2.5 2.5 0 0 1 2 17.5v-11Zm2.3-.5 7.2 5.1L18.7 6H4.3Zm15.2 2-7.5 5.3L4.5 8v9.5c0 .28.22.5.5.5h15c.28 0 .5-.22.5-.5V8Z"/>
-                              </svg>
-                            </a>
+                        {% when 'email' %}
+            <a href="mailto:{{ site.external-links[platform] }}/" target="_blank">
+                <i class="fa-brands fa-envelope"></i>
+  </a>
 
                     
                             {% when 'github' %}
