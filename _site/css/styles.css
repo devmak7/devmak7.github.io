@@ -69,8 +69,8 @@ nav {
 
 nav .left a {
     color: var(--text-color);
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 400;
 }
 
 nav .right {
@@ -79,8 +79,8 @@ nav .right {
 
 nav .right a {
     color: var(--text-color);
-    font-size: 18px;
-    margin-left: 30px;
+    font-size: 16px;
+    margin-left: 20px;
 }
 
 nav .right a:last-child
