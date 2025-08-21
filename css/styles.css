@@ -379,7 +379,43 @@ nav .mobile-nav {
 
 
 
-/* SECTION 3: SKILLS */
+/* SECTION: EXPERIENCE */
+.experience-section {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experience-section h2 {
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.experience-item {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: var(--light-background-color);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h3 {
+  margin: 0;
+  color: var(--link-color);
+  font-size: 20px;
+}
+
+.experience-item p {
+  margin: 4px 0;
+  font-size: 15px;
+  color: var(--text-color);
+}
+
+
+
+
+
+/* SECTION 4: SKILLS */
 .skills-section {
     margin-bottom: 100px;
     display:flex;
