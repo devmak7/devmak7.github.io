@@ -72,7 +72,7 @@ nav {
 
 nav .left a {
     color: var(--text-color);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -82,7 +82,7 @@ nav .right {
 
 nav .right a {
     color: var(--text-color);
-    font-size: 22px;
+    font-size: 20px;
     margin-left: 30px;
 }
 
